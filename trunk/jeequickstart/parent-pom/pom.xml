@@ -8,7 +8,7 @@
 	<packaging>pom</packaging>
 	<name>parent-pom</name>
 
-	
+
 
 	<!-- Properties for the project. Will be inherited to all modules -->
 	<properties>
@@ -206,6 +206,7 @@
 			</plugin>
 
 			<!-- Eclipse plugin to force download of source and JavaDoc jars -->
+
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-eclipse-plugin</artifactId>
@@ -217,8 +218,10 @@
 				</configuration>
 			</plugin>
 		</plugins>
-	</build>
 
+
+
+	</build>
 
 
 
@@ -256,6 +259,9 @@
 								</execution>
 							</executions>
 						</plugin>
+
+
+
 						<plugin>
 							<groupId>org.codehaus.mojo</groupId>
 							<artifactId>build-helper-maven-plugin</artifactId>
@@ -308,6 +314,19 @@
 								</execution>
 							</executions>
 						</plugin>
+
+
+
+
+
+
+
+
+
+
+
+
+
 						<plugin>
 							<groupId>org.apache.maven.plugins</groupId>
 							<artifactId>maven-compiler-plugin</artifactId>
